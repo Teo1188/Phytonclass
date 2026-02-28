@@ -60,3 +60,44 @@ else:
 es_fin_de_semana = False
 if not es_fin_de_semana:
     print("Toca buscar empleo")
+
+print("\n Anidar Condiciones")
+
+edad = 20
+tiene_dinero = True
+if edad >= 18:
+    if tiene_dinero:
+        print("Puedes ir a la discoteca")
+    else:
+        print("Quédate en casa")
+else:
+    print("No puedes entrar a la disco")
+
+
+# Más fácil
+# if edad < 18:
+#     print("No puedes entrar a la disco")
+# elif tiene_dinero:
+#     print("Puedes ir a la discoteca")
+# else:
+#     print("Quédate en casa")
+
+numero = 5
+if numero:  #True
+    print("El número no es cero")
+
+numero = 0
+if numero:  #False
+    print("Aquí no entrará nunca")
+
+nombre = "Juan"
+if nombre:
+    print("El nombre no es vacio")
+
+numero = 3 #asignacion
+es_el_tres = numero = 3 #Comparación
+
+if es_el_tres:
+    print("El numero es 3")
+
+
