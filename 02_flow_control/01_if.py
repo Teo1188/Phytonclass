@@ -135,26 +135,26 @@ print(mensaje)
 # Pide al usuario dos números y una operación (+, -, *, /)
 # Realiza la operación y muestra el resultado (maneja la división entre zero)
 
-numero1 = int(input("digita el primer número: "))
-numero2 = int(input("digita el segundo número: "))
-operacion = input("digita una operacion (+ - * /): ")
+# numero1 = int(input("digita el primer número: "))
+# numero2 = int(input("digita el segundo número: "))
+# operacion = input("digita una operacion (+ - * /): ")
 
-if operacion == "+":
-    resultado = numero1 + numero2
-elif operacion == "-":
-    resultado = numero1 - numero2
-elif operacion == "*":
-    resultado = numero1 * numero2
-elif operacion == "/":
-    if numero2 == 0:
-        print("Error: No se puede dividir por cero.")
-    else:
-            resultado = numero1 / numero2
-else:
-        print("Operación no válida.")
+# if operacion == "+":
+#     resultado = numero1 + numero2
+# elif operacion == "-":
+#     resultado = numero1 - numero2
+# elif operacion == "*":
+#     resultado = numero1 * numero2
+# elif operacion == "/":
+#     if numero2 == 0:
+#         print("Error: No se puede dividir por cero.")
+#     else:
+#             resultado = numero1 / numero2
+# else:
+#         print("Operación no válida.")
 
-if 'resultado' in locals(): #comprueba si la variable resultado existe.
-    print(f"El resultado es: {resultado}")
+# if 'resultado' in locals(): #comprueba si la variable resultado existe.
+#     print(f"El resultado es: {resultado}")
 
 # Ejercicio 3: Año bisiesto
 # Pide al usuario que introduzca un año y determina si es bisiesto.
